@@ -71,6 +71,7 @@
             </div>
         </fieldset>
         </div>
+    <div class="row">
         <div>
             <label for="contain">Please choose one</label>
             <select name="contain" id="contain">
@@ -80,13 +81,34 @@
                 <option value="dipped">Pesto Sauce</option>
             </select>
         </div>
+        <div>
+            <label for="lamb">Combinations</label>
+            <select name="lamb" id="lamb">
+                <option value="cheese">Cheese</option>
+                <option value="Pep">Pepperoni</option>
+                <option value="Hawaii">Hawaiian</option>
+                <option value="meat">Meat Lovers</option>
+                <option value="itail">Margherita</option>
+                <option value="meat">Custom Pizza ( Up Top )</option>
+            </select>
+        </div>
+        </div>
+    <div class="row">
         <fieldset>
             <legend>Special:</legend>
             <div>
-                <label for="special">Custom Pizza</label>
-                <textarea id="special" name="special" rows="4" cols="10" placeholder="Make your own pizza add your own toppings"></textarea>
+                <label for="special">Custom Orders</label>
+                <textarea id="special" name="special" rows="4" cols="10" placeholder="Custom Requests for your pizza"></textarea>
             </div>
         </fieldset>
+        <fieldset>
+            <legend>Delivery:</legend>
+            <div>
+                <label for="john">For Drop Off</label>
+                <textarea id="john" name="john" rows="3" cols="8" placeholder="Adress"></textarea>
+            </div>
+        </fieldset>
+        </div>
         <button type="button" onclick="alert('Free today for our Grand Opening')">Calculate Cost</button>
         <button type="submit">Submit Order</button>
     </div>
